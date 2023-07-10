@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600&display=swap");
+
+body {
+    background-color: #200e38;
+    font-family: "Playfair Display";
+}
+
+h1 {
+    color: #b50d57;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+h2 {
+    color: #b50d57;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+h3 {
+    color: #b50d57;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+p {
+    color: #ff0d66;
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+
+label {
+    color: #200e38;
+    font-size: 1.3em;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #200e38;
+    font-size: 1.2em;
+    text-decoration: underline #b50d57;
+}
+
+main {
+    background-color: #200e38;
+}
+
+.hover:hover {
+    background-color: #ff0d66;
+}
+
+.card:hover {
+    border: solid 1px #b50d57;
+}
+.card{
+    max-width: 540px
+}
+
+.bg-nav {
+    background-color: #dec790;
+}
+
+.footer {
+    background-color: #dec790;
+    width: 100%;
+    height: 100px;
+    
+    bottom: 0;
+    
+}
+
+.footer footer {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer footer i {
+    color: #200e38;
+    font-size: 1.2em;
+    margin-top: 40px;
+}
+
+.footer footer i a {
+    color: #200e38;
+}
+
+.footer footer i a:hover {
+    color: #b50d57;
+}
+
+.bg-form {
+    background-color: #ff0d66;
+}
+
+.btn-form {
+    background-color: #200e38;
+    color: #dec790;
+}
+
+.btn-form:hover {
+    background-color: #dec790;
+    color: #200e38;
+}
+
+.tu-carrito {
+    background-color: #dec790;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.oculto{
+    display: none;
+}
